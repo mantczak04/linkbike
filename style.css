@@ -1,0 +1,83 @@
+body {
+  overflow: hidden; /* Hide scrollbars */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#app{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.back-video{
+  transform: translate(-20px,  -80px);
+  position: fixed;
+  z-index: -1;
+}
+
+#avatar{
+  border-radius: 50%;
+  width: 164px;
+  height: 164px;
+}
+
+.main-container{
+  position: fixed;
+  top: 20px;
+  padding: 20px;
+  background-color: rgba(35, 35, 35, 0.4);
+  border: solid 1px black;
+  border-radius: 14px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  color: white;
+  bottom: 20px;
+}
+
+.achievment{
+  background-color: rgba(35, 35, 35, 0.2);
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.achievment-place{
+  font-size: 28px;
+}
+
+.sponsors {
+  display: flex;
+  border-radius: 14px;
+  border: 2px solid black;
+  width: 100%;
+  height: 112px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
+.link{
+  width: 300px;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  margin-top: 8px;
+  background-color: rgba(35, 35, 35, 0.2);
+  border-radius: 14px;
+}
+
+.link:hover{
+  background-color: rgba(35, 35, 35, 0.8);
+  cursor: pointer;
+}
